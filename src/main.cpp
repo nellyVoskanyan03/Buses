@@ -6,12 +6,13 @@ void test2();
 void test3();
 
 int main() {
+  
 	City c;
 	c.input();
 	//test1();
 	//test2();
 	//test3();
-
+  
 	return 0;
 }
 void test1() {
