@@ -7,4 +7,4 @@ include_directories(include)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(Buses ${SOURCES})
+add_executable(Buses ${SOURCES} "src/city.cpp" "src/crossRoad.cpp")
